@@ -339,6 +339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8905190790153440769}
+  - component: {fileID: -1637305859646450292}
   m_Layer: 0
   m_Name: Red Amon
   m_TagString: Untagged
@@ -365,6 +366,19 @@ Transform:
   - {fileID: 8403457642683384310}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -26.116, z: 0}
+--- !u!114 &-1637305859646450292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8468306510590578760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3770407d03ca54ea5945abfd7508e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!1 &8919539012332457364
 GameObject:
   m_ObjectHideFlags: 0

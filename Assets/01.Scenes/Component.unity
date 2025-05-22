@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 537310784}
   - component: {fileID: 537310783}
+  - component: {fileID: 537310785}
   m_Layer: 0
   m_Name: StudyComponent
   m_TagString: Untagged
@@ -148,8 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33b5ee2549c960e45976cbf0519fee81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 1126753693}
-  changeName: "\uBA54\uC778 \uCE74\uBA54"
+  msh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  mat: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
 --- !u!4 &537310784
 Transform:
   m_ObjectHideFlags: 0
@@ -165,6 +166,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &537310785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537310782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0031eaf7c342cd64692c51d3f6c02c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number2: 0
+  number4: 0
+  number5: 0
 --- !u!1 &645421353
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +332,7 @@ GameObject:
   - component: {fileID: 1126753694}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -537,5 +553,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 645421356}
   - {fileID: 1296296786}
-  - {fileID: 1126753697}
   - {fileID: 537310784}
+  - {fileID: 1126753697}
